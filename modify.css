@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+body {
+    background-color: white;
+    line-height: 1.6;
+}
+h1 {
+    color: orangered;
+    font-size: 2rem;
+}
+.containerimg{
+  height: 100vh;
+  background-image: url('./rec.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.modmav {
+  font-size: 1.5rem;
+
+}
+.modmav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+.modmav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+
+
+  
+.containerimg{
+  border: 1px solid green;
+  padding-top: 5rem;
+color: #ffffff;
+}
+  
+  .left-column {
+    width: 25%;
+    margin-left: 50px;
+
+  }
+  .left-column form{
+    padding-bottom: 5rem ;
+    text-align: left;
+
+  }
+  
+  .right-column {
+    width: 45%;
+    float:right;
+    position: absolute;
+    top: 250px;
+    right: 16px;
+    color: black;
+    margin-right: 50px;
+   
+    
+  
+    
+
+  }
+  
+  /* Styling for the Add Recipes form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #3338;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling for list of recipes */
+  #recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  #no-recipes {
+      display: flex;
+      background-color: #FFCCCC;
+      padding: 20px;
+      border-radius: 8px;	
+      margin-top: 44px;
+  }
+  
+  /* styling for single recipe div */
+  .recipe {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  }
+  
+  .recipe h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .recipe ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .recipe ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Delete button styling */
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Search label styling */
+  label[for="search-box"] {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
